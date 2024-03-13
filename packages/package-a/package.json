@@ -1,0 +1,10 @@
+{
+  "name": "packageA",
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "private": true,
+  "sideEffects": [
+    "./locale/**/*"
+  ]
+}

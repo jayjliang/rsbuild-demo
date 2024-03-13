@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "dev": "rsbuild dev --open",
     "build": "rsbuild build",
@@ -20,5 +21,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "template-helpers": "1.0.1"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
